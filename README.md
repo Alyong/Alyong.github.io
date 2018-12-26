@@ -1,13 +1,30 @@
-# Jekyll Modern Blog
-A Simple, Clean and responsive modern blog for jekyll.
+Agency Jekyll theme
+====================
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+# How to use
 
-## License
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
-Changes being that I made it jekyll ready and smushed the CSS together.
+###Portfolio 
+
+Portfolio projects are in '/_posts'
+
+Images are in '/img/blog'
+
+###About
+
+Images are in '/img/about/'
+
+###Team
+
+Team members and info are in '_config.yml'
+
+Images are in '/img/team/'
+
+
+# Demo
+
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)

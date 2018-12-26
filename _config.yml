@@ -1,7 +1,65 @@
+url: "https://yongxinjingying.cn"
+baseurl: ""
+
 # Site settings
-title: Alen Blog
-description: Time will not stop, keep moving forward, and look forward to the future with it.
-keywords: Modern, Blogging, Fun
-author: Alen #author: Wferr/Alen Study
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://yongxinjingying.cn" # the base hostname & protocol for your site
+title: Alen.Wang Home
+email: 2464146062@qq.com
+description: "You could do anything you want if you put your mind to it."
+
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/AlenWang92
+  - title: facebook
+    url: https://www.facebook.com/shayo.wang
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: codiepie
+    url: https://blog.csdn.net/ALEX_wxy
+  - title: github
+    url: https://github.com/Alyong
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: China,GuangDong
+  - line: Shenzhen,futian,shangsha
+
+# Build settings
+markdown: kramdown
+permalink: pretty
