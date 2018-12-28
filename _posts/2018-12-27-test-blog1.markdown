@@ -4,8 +4,8 @@ subtitle: Alen Blog
 layout: default
 modal-id: 1
 date: 2018-12-27
-img: 2.jpg
-thumbnail: 2.jpg
+img: golden.png
+thumbnail: golden-thumbnail.png
 alt: image-alt
 project-date: Dec 2018
 client: Alen Home
@@ -13,6 +13,5 @@ category: Alen Site
 description: Alen test blog1.
 ---
 
-
-也许,我不知道未来会去向何方,但我愿意一直前往
+也许,我不知道未来会去向何方,但我愿意一直前往<br/>
 没有方向,只是暂时
