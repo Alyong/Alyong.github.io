@@ -74,6 +74,10 @@ body #coidea {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 64px;
+  -webkit-animation: left_arrow 1s infinite;
+  -webkit-animation-fill-mode: both;
+  animation: left_arrow 1s infinite;
+  animation-fill-mode: both;
 }
 .slider__arrow_next {
   right: 16px;
@@ -83,7 +87,38 @@ body #coidea {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto 64px;
+  -webkit-animation: right_arrow 1s infinite;
+  -webkit-animation-fill-mode: both;
+  animation: right_arrow 1s infinite;
+  animation-fill-mode: both;
 }
+
+@keyframes left_arrow {
+  from {left: 5%;opacity:0;}
+  to {left: 4%;opacity:1;}
+}
+@-webkit-keyframes left_arrow {
+  from {left: 5%;opacity:0;}
+  to {left: 4%;opacity:1;}
+}
+@-moz-keyframes left_arrow {
+  from {left: 5%;opacity:0;}
+  to {left: 4%;opacity:1;}
+}
+
+@keyframes right_arrow {
+  from {right: 5%;opacity:0;}
+  to {right: 4%;opacity:1;}
+}
+@-webkit-keyframes right_arrow {
+  from {right: 5%;opacity:0;}
+  to {right: 4%;opacity:1;}
+}
+@-moz-keyframes right_arrow {
+  from {right: 5%;opacity:0;}
+  to {right: 4%;opacity:1;}
+}
+
 .nav-control {
   position: relative;
   display: inline-block;

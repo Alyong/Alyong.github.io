@@ -866,7 +866,7 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-.down_arrow, .down_arrow2{
+.down_arrow1,.down_arrow2,.down_arrow3,.down_arrow4{
   width: 54px;
   height: 54px;
   position: absolute;
