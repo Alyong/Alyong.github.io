@@ -292,12 +292,12 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 58px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 45px;
 }
 
 @media(min-width:768px) {
@@ -864,4 +864,33 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.down_arrow, .down_arrow2{
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  margin-left: -27px;
+  background-size: 54px 54px !important;
+  -webkit-background-size: 54px 54px !important;
+  background: url('/img/arrow/down_arrow.jpg') center no-repeat;
+  -webkit-animation: down_arrow 1s infinite;
+  -webkit-animation-fill-mode: both;
+  animation: down_arrow 1s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes down_arrow {
+  from {bottom: 10%;opacity:0;}
+  to {bottom: 5%;opacity:1;}
+}
+@-webkit-keyframes down_arrow {
+  from {bottom: 5%;opacity:0;}
+  to {bottom: 0%;opacity:1;}
+}
+@-moz-keyframes down_arrow {
+  from {bottom: 5%;opacity:0;}
+  to {bottom: 0%;opacity:1;}
 }
